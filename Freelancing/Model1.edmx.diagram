@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6a7fe72bdaed4a17b407f619cf14b99e" Name="Diagram1" >
+        <EntityTypeShape EntityType="FreelancingDBModel.Categories" Width="1.5" PointX="0.75" PointY="1.875" />
+        <EntityTypeShape EntityType="FreelancingDBModel.Clients" Width="1.5" PointX="3" PointY="5.375" />
+        <EntityTypeShape EntityType="FreelancingDBModel.Freelancers" Width="1.5" PointX="3" PointY="0.75" />
+        <EntityTypeShape EntityType="FreelancingDBModel.Posts" Width="1.5" PointX="5.25" PointY="0.875" />
+        <EntityTypeShape EntityType="FreelancingDBModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="2.5" />
+        <EntityTypeShape EntityType="FreelancingDBModel.Users" Width="1.5" PointX="0.75" PointY="4.75" />
+        <AssociationConnector Association="FreelancingDBModel.FK_Categories" />
+        <AssociationConnector Association="FreelancingDBModel.FK_rCategories" />
+        <AssociationConnector Association="FreelancingDBModel.FK_Users_Clients" />
+        <AssociationConnector Association="FreelancingDBModel.FK_Freelancers_Posts" />
+        <AssociationConnector Association="FreelancingDBModel.FK_Users" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

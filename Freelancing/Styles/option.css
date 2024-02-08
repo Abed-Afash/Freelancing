@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700&display=swap");
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: "Fira Sans", sans-serif;
+  height: 100vh;
+  background-image: url("../images/background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-color: #f4f7f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.join-container {
+  width: 70%;
+  max-width: 700px;
+  background: rgba(44, 44, 46, 0.95);
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  height: 40%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.options-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 15%;
+  gap: 10px;
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 45px;
+}
+
+.option {
+  display: flex;
+}
+
+.option-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: border-color 0.3s;
+}
+
+.option-box img {
+  width: 24px; /* Adjust as necessary */
+}
+
+.option input[type="radio"] {
+  display: none; /* Hide the default radio button */
+}
+
+.option input[type="radio"]:checked + .option-box {
+  border-color: #19a463; /* Highlight color for selected option */
+}
+
+span {
+  color: #fff;
+}
+
+.create-account-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #1dbf73;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.create-account-btn:hover {
+  background-color: #17a562;
+}
+
+@media (max-width: 768px) {
+  .join-container {
+    margin: 30px;
+    padding: 15px;
+  }
+}
